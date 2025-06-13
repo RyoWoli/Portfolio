@@ -1,0 +1,38 @@
+/* Custom styling */
+body {
+    padding-top: 70px;
+}
+
+.profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.progress {
+    height: 20px;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: #333;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: green;
+}
+
+.testimonial-card {
+    min-height: 180px;
+}
+
+.profile-circle {
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.jumbotron {
+    padding: 100px 0;
+    background: linear-gradient(45deg, #007bff, #6610f2);
+}

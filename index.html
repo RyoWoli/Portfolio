@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Homepage Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">RYO WOLI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fs-5">
+                    <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang Saya</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portofolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonial">Testimoni</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Home -->
+    <section id="home" class="text-center py-5 bg-light">
+        <div class="container">
+            <img src="gambar/Ryo (2).jpg" alt="Foto Profil" class="img-fluid profile-circle mb-3" style="width: 180px; height: 180px; object-fit: cover;" />
+            <h1 class="display-4 fw-bold">Ryo Umbu Neka Jara Woli</h1>
+            <p class="lead text-secondary">UI/UX Enthusiast</p>
+            <!-- Tombol Navigasi Internal -->
+            <a style="color: green;" href="#portfolio" class="btn btn-outline">Lihat Portofolio</a>
+            <a style="color: green;" href="#contact" class="btn btn-outline">Hubungi Saya</a>
+        </div>
+    </section>
+
+    <!-- 2. About Me -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-center">Tentang Saya</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h4>Biodata</h4>
+                    <ul class="list-unstyled fs-5 mb-4">
+                        <li><strong>Nama:</strong> Ryo Umbu Neka Jara Woli</li>
+                        <li><strong>Tempat, Tanggal Lahir:</strong> Waikajawi, 2 Mei 2004</li>
+                        <li><strong>Alamat:</strong> Sumba Tengah, Indonesia</li>
+                    </ul>
+
+                    <h4>Pendidikan</h4>
+                    <table class="table table-striped mb-4">
+                        <tbody>
+                            <tr>
+                                <td>SMK NEGERI 1 WAIBAKUL.</td>
+                                <td>Teknik Komputer Dan Jaringan.</td>
+                                <td>2023</td>
+                            </tr>
+                            <tr>
+                                <td>Universitas Kristen Wira Wacana Sumba.</td>
+                                <td>Teknik Informatika,</td>
+                                <td>2023</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h4>My Skills</h4>
+                    <div class="mb-3">
+                        <label class="form-label">HTML</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 90%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90 %</div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">CSS</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100">85 %</div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Bootstrap</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80 %</div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">JavaScript</label>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75 %</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Portofolio/Proyek -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-center">Portofolio</h2>
+            <div class="row g-4">
+                <!-- Card Proyek 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="gambar/online-shopping-illustration-with-giant-laptops-shopping-people_4968-213.avif" class="card-img-top"
+                            alt="Proyek 1" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Website Toko Online</h5>
+                            <p class="card-text flex-grow-1">Sebuah website e-commerce dengan fitur katalog produk,
+                                keranjang belanja, dan pembayaran online.</p>
+                            <a href="https://contohtoko.online" target="_blank" rel="noopener"
+                                style="color: green;" class="btn btn-outline mt-auto">
+                                <i style="color: green;" class="fas fa-external-link-alt me-2"></i>Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card Proyek 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="gambar/app-development-concept-with-flat-design_23-2147854803.avif" class="card-img-top"
+                            alt="Proyek 2" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Aplikasi Manajemen Tugas</h5>
+                            <p class="card-text flex-grow-1">Aplikasi desktop berbasis web untuk mengelola to-do list
+                                dengan fitur deadline dan pengingat.</p>
+                            <a href="https://contohtugas.app" target="_blank" rel="noopener"
+                                style="color: green;" class="btn btn-outline mt-auto">
+                                <i style="color: green;" class="fas fa-external-link-alt me-2"></i>Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card Proyek 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="gambar/app-development-concept-with-flat-design_23-2147859951.avif" class="card-img-top"
+                            alt="Proyek 3" />
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Aplikasi Manajemen Tugas</h5>
+                            <p class="card-text flex-grow-1">Aplikasi desktop berbasis web untuk mengelola to-do list
+                                dengan fitur deadline dan pengingat.</p>
+                            <a href="https://contohtugas.app" target="_blank" rel="noopener"
+                                style="color: green;" class="btn btn-outline mt-auto">
+                                <i style="color: green;" class="fas fa-external-link-alt me-2"></i>Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Kontak -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-center">Kontak</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <!-- Form Kontak -->
+                    <form id="contactForm" novalidate>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama Lengkap</label>
+                            <input type="text" class="form-control" id="name" name="name"
+                                placeholder="Masukkan nama Anda" required />
+                            <div class="invalid-feedback">Nama Wajib Diisi!</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="nama_email_anda@gmail.com" required />
+                            <div class="invalid-feedback">Email Valid wajib Diisi!</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required
+                                placeholder="Tuliskan pesan Anda"></textarea>
+                            <div class="invalid-feedback">Pesan Tidak Boleh Kosong!</div>
+                        </div>
+                        <button type="submit" class="btn btn-outline-success">Kirim Pesan</button>
+                    </form>
+
+                    <!-- Info Kontak Tambahan -->
+                    <div class="mt-4">
+                        <h5>Info Kontak</h5>
+                        <p><i class="fas fa-envelope me-2"></i>email@example.com</p>
+                        <p><i class="fas fa-phone me-2"></i>+62 822-1330-8453</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/riounek.djarawoli" target="_blank" rel="noopener" aria-label="Facebook"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/ryo_jarawoli_254?igsh=MXYwbmdidDJ6YzFrcg==" target="_blank" rel="noopener" aria-label="Instagram"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Blog/Artikel -->
+    <section id="blog" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-center">Blog/Artikel</h2>
+            <div class="row g-4 justify-content-center">
+                <!-- Artikel 1 -->
+                <div class="col-md-5">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Tips Menjadi Developer Handal</h5>
+                            <p class="card-text">Membahas tips dan strategi yang efektif untuk meningkatkan kemampuan
+                                pemrograman dan pengembangan web.</p>
+                            <a href="blog/tips-developer.html" style="color: green;" class="stretched-link">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Artikel 2 -->
+                <div class="col-md-5">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Pengalaman Magang di Startup</h5>
+                            <p class="card-text">Cerita pengalaman saya saat magang di sebuah startup teknologi, belajar
+                                banyak hal baru dan tantangan.</p>
+                            <a href="blog/magang-startup.html" style="color: green;" class="stretched-link">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Testimoni, Klien, Sertifikat -->
+    <section id="testimonial" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-center">Testimoni & Sertifikat</h2>
+
+            <!-- Carousel Testimoni -->
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000"
+                aria-label="Testimoni Klien">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card testimonial-card shadow-sm p-4 text-center">
+                            <p class="fs-5 fst-italic">"Kerja sama dengan Nama sangat menyenangkan, hasilnya melebihi
+                                ekspektasi!"</p>
+                            <h6 class="fw-bold mt-3">- Juven, Programmer</h6>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testimonial-card shadow-sm p-4 text-center">
+                            <p class="fs-5 fst-italic">"Sangat profesional dan tepat waktu. Sangat direkomendasikan
+                                untuk proyek web Anda."</p>
+                            <h6 class="fw-bold mt-3">- Alex, Beginner Website Enthusiast</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev" aria-label="Previous Testimonial">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next" aria-label="Next Testimonial">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-success text-white text-center py-3">
+        &copy; 2025 Author by Ryo Woli
+    </footer>
+
+    <!-- Bootstrap JS Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Form Validasi Bootstrap
+        (() => {
+            'use strict';
+            const form = document.querySelector('#contactForm');
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+                if (!form.checkValidity()) {
+                    e.stopPropagation();
+                    form.classList.add('was-validated');
+                } else {
+                    // Simulasikan kirim pesan (bisa disesuaikan)
+                    alert('Pesan berhasil dikirim. Terima kasih!');
+                    form.reset();
+                    form.classList.remove('was-validated');
+                }
+            }, false);
+        })();
+    </script>
+</body>
+
+</html>
